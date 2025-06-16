@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>C0meço</h1>
-</body>
+  </head>
+  <body>
+    <h1>Fomulário</h1>
+    <form action="" method="">
+      <fieldset>
+        <legend>Dados de Login</legend>
+        <label for=""> Nome: </label>
+        <br />
+        <input
+          type="text"
+          id="nome"
+          placeholder="Digite seu nome"
+          maxlength="17"
+        />
+        <br />
+
+        <!-- Caixinha de email -->
+        <label for=""> Email:</label>
+        <br />
+        <input type="email" nome="" id="email" placeholder="Digite seu email" />
+        <br /><br />
+        <!-- caixinha de senha -->
+        <label for="senha">Senha:<br /></label>
+        <input typ"password" nome="senha" id="senha" placeholder="Senha">
+        <br /><br />
+        <!-- botao pra enviar o formulário -->
+        <input type="submit" value="Login" />
+      </fieldset>
+    </form>
+    <br /><br />
+    <fieldset>
+    <h1>Outros inputs</h1>
+    <!-- Outros inputs -->
+
+    <!-- datas -->
+    <label for="data"> Data de nascimento:</label>
+    <input type="date" id="data" />
+    <input type="datetime-local" />
+    <input type="time" />
+
+    <br /><br />
+    <!-- teleforne -->
+    <label for="telefone"> Telefone:</label>
+    <input
+      type="tel"
+      name="telefone"
+      data-mask="(00) 00000-0000"
+      data-mask-selectonfous="true"
+    />
+    <br /><br />
+    <!-- Texto maior -->
+    <label for="textao"> Texto grande:</label>
+    <textarea
+      name="textao"
+      id="textao"
+      placeholder="coloca um texto ai"
+    ></textarea>
+    <br /><br />
+    <!-- cores -->
+    <label for="cor">Cor:</label>
+    <input type="color" name="cor" id="cor" />
+    <br /><br />
+
+    <!-- Numeros -->
+    <label for="numero">Números:</label>
+    <input type="number" min="-50" max="100" value="7" step="5" />
+
+    <br /><br />
+    <!-- Barrinha -->
+    <label for="barra"> Barrinha:</label>
+    0
+    <input
+     type="range" name="barra" id="barra" min="0" max="100" step="20" />
+    100
+
+   <br><br>
+   <!-- Caixinha de seleção -->
+    <label for=""> Sellecione seu curso: </label>
+    <br>
+    <input type="radio" name="curso" value="eletrica"> Elétrica
+    <br>
+     <input type="radio" name="curso" value="mecanica"> Mecânica
+     <br>
+      <input type="radio" name="curso" value="t.i."> T.I.
+      
+      <br><br>
+      <!-- Caixinha -->
+     <label for=""> Redes sociais</label>
+   <br>
+   <input type="checkbox" name="tec1" value="whatzapp"> Whatzapp
+   <br>
+   <input type="checkbox" name="tec2" value="facebook"> Facebook
+   <br>
+   <input type="checkbox" name="tec3" value="tuiter"> Twitter
+
+   <br><br>
+   <!-- Seleção -->
+   <label for=""> Selecione sua cidade</label>
+   <select name="cidades" id="cidades">
+    <optgroup name="es" value="Es" label="ES">
+    <option value="cariacica">Cariacica</option>
+    <option value="gua">Guarapari</option>
+    </optgroup>
+    <option value="vc">Los angeles</option>
+    <option value="toquio">B.C</option>
+    <option value="sa">Vitória</option>
+   </select>
+
+   <br><br>
+   <!-- botao de reset -->
+    <input type="reset" value="Reset">
+  </body>
 </html>
+
