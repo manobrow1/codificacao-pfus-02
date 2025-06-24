@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(221, 74, 69);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div{
+    background-color: rgb(247, 77, 64);
+}
+p{
+    font-family: 'Segoe UI', sans-serif;
+}
+/* ESTILIZAÇÃO POR ID */
+#CAIXINHAS-ROXA{
+    background-color: rgb(39, 7, 70);
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+#CAIXINHAS-DOURADA-2{
+     background-color: rgb(241, 60, 5);
+    color: white;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+.minicaixa{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
