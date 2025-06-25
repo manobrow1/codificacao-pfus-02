@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(222, 248, 212);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#principal{
+    width: 90%;
+    height: 800;
+    margin: auto;
+    background-color: brown;
+    background-image: linear-gradient(red, white, black);
+   
+}
+#secundario{
+    width: 900%;
+    height: 2000px;
+     background-image: url("https://www.minimundi.com.br/cdn/imagens/produtos/det/miniatura-carro-nissan-gtr-r35-lb-silhouette-2020-1-43-solido-s4311203.jpg");
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: 50%;
+    background-attachment: fixed;
+}
