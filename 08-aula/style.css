@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+
+    background-color: rgb(5, 8, 139);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#na-direita{
+    text-align: right;
+    
+}
+
+#na-esquerda{
+    text-align: left;
+
+}
+
+#no-centro{
+    text-align: center;
+
+}
+
+#justificado{
+    text-align: justify;
+
+}
+
+#minusculo{
+    text-transform: lowercase;
+
+}
+
+
+#maiusculo{
+    text-transform: uppercase;
+
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+h1{
+   font-size: 80px;
+   font-weight: 400;
+   text-shadow: 10px 5px black;
+
+}
+
+#decorado{
+    text-decoration: overline underline;text-align: center;
+    
+
+}
+
+#center{
+    text-align: center;
+}
+
+#outra-fonte{
+    font-family: impact, sans-serif;
+    color: rgb(252, 252, 252);
+}
+
+#fonte-google{
+    font-family: "Press Start 2P", system-ui;
+}
+
+@font-face{
+    font-family: "Press Start 2P" ;
+    src: url("./fontes/PressStart2P-Regular.ttf");
+}
+
+#fonte-perso{
+    font-family: "Press Start 2P" sans-serif;
+    font-size: 50px;
+}
