@@ -8,6 +8,11 @@ body{
     background-color: rgb(170, 232, 243)
 }
 
+header{
+    position: sticky;
+    top: 0px;
+}
+
 
 #navegacao{
     width: 80%;
@@ -17,7 +22,9 @@ body{
     padding: 15px;
     color: white;
     font-size: 30px;
-    overflow: hidden;
+    overflow:hidden;
+    position: sticky;
+    top:0px;
 }
 
 .simbolo{
@@ -40,16 +47,71 @@ li:hover{
     color: rgb(0, 45, 247);
     background-color: aliceblue;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 90px;
     transform: scaleX(1.5);
     transform: scaleY(1);
     
 }
 
 #logo{
-    float: left;;
+    float: left;
 }
 
+main{
+    background-color: aliceblue;
+    height: 2000px;
+    width: 80%;
+   margin: 0 auto;
+   padding: 10px 15px;
+   font-size: 30px;
+   color: aliceblue;
+}
+
+#bloco{
+    background-color: rgb(29, 117, 231);
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+}
+
+#linha-bloco{
+    background-color: blue;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+
+.mini-bloco{
+    background-color: aqua;
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+}
+
+#linha{
+    background-color: rgb(107, 180, 248);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.mini-linha{
+    background-color: rgb(41, 3, 255);
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+}
 @media screen and (max-width: 600px) {
     body{
         background-color: black;
@@ -62,15 +124,54 @@ li:hover{
     }
     #logo{
         font-size: 35px;
+        float: none;
+        text-align: center;
     }
     .simbolo{
-        float: left;
         font-size: 40px;
     }
     #item-manu{
         float: none;
         text-align: center;
         font-size: 30px;
-        margin: 50px;
+        margin: 7px;
+    }
+}
+
+@media (width < 500px){
+    body{
+        background-color: rgb(186, 184, 212);
+    }
+    #navegacao{
+        width: 100%;
+        background-color: rgb(218, 17, 17);
+        padding: 5px;
+    }
+    #logo{
+        font-size: 40px;
+        text-align: center;
+    }
+    .simbolo{
+        font-size: 50px;
+        float: none;
+    }
+    li{
+        display: block;
+        width: 50%;
+        margin-top:5px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+    .mini-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mini-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
